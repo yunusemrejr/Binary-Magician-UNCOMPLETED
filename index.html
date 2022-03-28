@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Binary Magician</title>
+<link rel="icon" type="image/x-icon" href="images/logo.png"/>
+  <link href='index.css' rel='stylesheet' />
+        <script src="JQuery/jquery-2.1.3.min.js"></script>
+        <script src="bootbox/popper.min.js"></script>
+        <script src="bootbox/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="bootbox/bootstrap.min.css">
+        <script src="bootbox/bootbox.all.js"></script>
+         <script src='index.js'></script>
+
+
+
+
+
+  </head>
+<body><div id='headerDiv'>
+  <img src='images/logo.png' id='logo'/>&nbsp;&nbsp;<h1 id='h1title'>
+  Binary Magician
+  </h1>
+
+  <p id='yunusHeader'>
+    &nbsp;&nbsp; by Yunus E.V. / yunusemrevurgun@hotmail.com
+  </p>
+  </div>
+
+
+<hr>
+
+  <br />
+
+<div id='bodyDiv'>
+<div id='descANDtutorialDIV'>
+
+
+<p id='desc'>
+  Binary magician is a mostly browser based program (written in HTML,CSS,JavaScript,SQL,C++) that creates SQL files with table values converted into binary (ASCII/UTF-8). It works simple! Give us your desired table, column and value information and we will do the magic!</p>
+  <p id='tutorial'>
+*input format for writing data into SQL file: "new_table_name"&nbsp;&nbsp; "," &nbsp;&nbsp;"new_column_name"&nbsp;&nbsp; "," &nbsp;&nbsp;"new_value_for_column"&nbsp;<br />
+    example -----> table1,column1,Hello World! <br />
+    example 2 ----> table_name,column_name,my phone number is: +1 1111 111,my name is Example Name,I live in planet earth<br />
+    *NOTE: in every creation a new table, a new column and a new value(s) are created. For creating multiple values for the same table and column, see example 2 above.<br />
+    *NOTE: in the current version of our program, you can not write into the same table or column again. Every time you run the program, a new table with a new column and new values will be created.
+   <br /> *NOTE: you can not create more than 1 table or column with the same name. Also note that maximum characters per table/coulmn/value (including spaces in values) is 20 characters. Also don't create more than 20 values for a column.<br /><br />
+  </p></div><br /><br />
+<div id='readWriteDiv'>
+    <div id='inputDiv'> <p id='pwrite'>Write Data Into SQL File: &nbsp;</p> <input id='inpt'> <button id='button1' onclick='convertAndWriteBtnFunc()'> Convert &amp; Write </button>  </div>
+
+
+
+  </div><br />
+<div id='previewANDdownloadDIV'>
+
+  <button id='createPreview' onclick='createPreview()'>
+Create Preview  </button>&nbsp;&nbsp;
+  <button id='download' onclick='download()'>
+Download SQL  </button> &nbsp;&nbsp;<button id='resetDatabase' onclick='resetDatabase()'>
+Reset SQL file
+  </button></div><br /><br />
+  <div id='tableViewDiv'><p id='tableViewPlaceHolder'>
+    *this is the table view placeholder, before you preview your SQL table, you need to click the 'Create Preview' button.
+    </p>
+<br />
+  </div>
+
+
+
+<br /><br /><br /><br /><br />
+
+
+
+
+  </div>
+
+
+</body>
+</html>

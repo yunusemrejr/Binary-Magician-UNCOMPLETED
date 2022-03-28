@@ -1,0 +1,250 @@
+html,body {
+
+  min-width:1000px;
+ background: rgb(193,188,218);
+background: -moz-linear-gradient(11deg, rgba(193,188,218,1) 7%, rgba(255,255,255,1) 35%, rgba(160,164,146,1) 100%);
+background: -webkit-linear-gradient(11deg, rgba(193,188,218,1) 7%, rgba(255,255,255,1) 35%, rgba(160,164,146,1) 100%);
+background: linear-gradient(11deg, rgba(193,188,218,1) 7%, rgba(255,255,255,1) 35%, rgba(160,164,146,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c1bcda",endColorstr="#a0a492",GradientType=1);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: auto;
+            background-attachment: fixed;
+}
+
+hr {
+
+   border-color: grey;
+  border-top: 1px dashed ;
+
+}
+
+
+#h1title {
+color:black;
+  font-family: arial;
+-webkit-text-stroke: 1px purple;
+  -webkit-text-fill-color:grey;
+
+
+
+
+}
+
+
+#yunusHeader {
+
+
+  color:black;
+  font-family: arial;
+  padding-top: 17px;
+
+
+
+
+
+}
+
+#pwrite,#pread  {
+
+
+  color:grey;
+  font-family: courier;
+
+
+
+
+
+}
+
+#headerDiv {
+
+
+ display:flex;
+
+
+
+}
+
+
+#bodyDiv {
+
+
+
+ text-align:center;
+
+
+
+}
+
+
+#tableViewPlaceHolder{
+
+
+    color:grey;
+  font-family: arial;
+
+
+
+}
+
+#desc {
+
+
+    color:white;
+  font-family: arial;
+
+
+
+}
+
+#inputDiv  {
+
+
+ display:flex;
+align-items: center;
+justify-content:center;
+}
+
+
+#readWriteDiv {
+
+
+  display:flex;
+align-items: center;
+justify-content:center;
+
+
+
+}
+
+
+#tableViewDiv {
+
+  border: 1px solid;
+  border-color:grey;
+  border-radius:5px;
+  width:80%;
+display: block;
+  margin: 0 auto;
+
+
+
+}
+
+
+#tutorial {
+
+  font-family: arial;
+  font-style:italic;
+   color:white;
+width:90%;
+text-align:center;
+  margin:auto;
+}
+
+
+#resetDatabase {
+
+
+  background-color:red;
+  color:white;
+  border: 1px solid;
+  border-radius:4px;
+    border-color:white;
+
+
+
+}
+
+
+
+#button1  {
+
+    background-color:#0066CC;
+  color:white;
+  border: 1px solid;
+  border-radius:4px;
+    border-color:white;
+
+}
+
+
+#createPreview {
+
+
+
+ background-color:#673ab7;
+  color:white;
+  border: 1px solid;
+  border-radius:4px;
+    border-color:white;
+
+}
+
+
+ #download{
+
+
+
+ background-color:#4caf50;
+  color:white;
+  border: 1px solid;
+  border-radius:4px;
+    border-color:white;
+
+}
+
+#previewANDdownloadDIV {
+
+ margin:auto;
+  display:flex;
+align-items: center;
+justify-content:center;
+
+
+}
+
+#descANDtutorialDIV {
+
+  align-items: center; margin:auto;
+border: 2px solid; border-color:grey;border-radius:4px;
+background-color:white;
+  background-image:url('images/descback.png');
+width:70%;
+background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+
+
+}
+
+#logo {
+
+
+
+  width:10%;
+
+
+}
+
+#h1title {
+
+
+  padding-top:30px;
+
+
+
+
+}
+
+#yunusHeader {
+
+    padding-top:60px;
+
+
+
+}
